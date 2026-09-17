@@ -188,7 +188,7 @@ async function main() {
   content += `📊 账号数: ${notifyResults.length}\n`
   const successCount = notifyResults.filter(r => r.status === '成功').length
   const failCount = notifyResults.length - successCount
-  content += `✅ 成功: ${successCount}  ❌ 失败: ${failCount}\n`
+  content += `✅ 成功: ${successCount} \n ❌ 失败: ${failCount}\n`
 
   for (const r of notifyResults) {
     content += `\n【${r.nickname}】\n`
