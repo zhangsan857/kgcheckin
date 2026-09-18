@@ -2,7 +2,7 @@ name: 签到
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 11 * * *'
+    - cron: '33 11 * * *'
       timezone: "Asia/Shanghai"
 permissions:
   contents: read
